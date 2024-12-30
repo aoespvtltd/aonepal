@@ -1,0 +1,7 @@
+import{e as x,i as d,h as j,j as s,B as p}from"./index-Zp5p5bte.js";import{P as h}from"./PageBar-CI4JsExo.js";import{p as u}from"./projects-DkNxxvEi.js";/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=x("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]),f=()=>{const{slug:t}=d(),r=u.find(e=>e.slug===t),{name:a,description:c,detail:o,img:n}=r,i=j(),l=o.split(`
+`).filter(e=>e.trim()!=="");return s.jsxs("div",{className:"container mx-auto px-4 py-8 max-w-4xl",children:[s.jsxs(p,{variant:"ghost",className:"justify-center items-center",onClick:()=>i("/projects"),children:[s.jsx(g,{className:"mr-2 h-4 w-4"}),"Back to Projects"]}),s.jsx("h1",{className:"text-4xl font-bold mb-4",children:a}),s.jsx("p",{className:"text-xl text-gray-600 mb-6",children:c}),s.jsx("div",{className:"mb-8",children:s.jsx("img",{src:n,alt:a,className:"w-auto h-[400px] rounded-lg shadow-lg mx-auto"})}),s.jsx("div",{className:"prose max-w-none",children:l.map((e,m)=>s.jsx("p",{className:"mb-4",children:e},m))}),s.jsx("div",{className:"mt-8 pt-4 border-t border-gray-200",children:s.jsxs("p",{className:"text-sm text-gray-500",children:["Project Slug: ",s.jsx("span",{className:"font-mono",children:t})]})})]})};function b(){return s.jsxs("div",{children:[s.jsx(h,{leftText:"Project Details"}),s.jsx(f,{})]})}export{b as default};
